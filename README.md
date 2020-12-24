@@ -2,7 +2,7 @@
 
 > Koostanut ja muokannut Arttu Ylhävuori
 
-Joulukortti on "puolivalmisteista" tehty kooste, jonka lähteinä on käytetty seuraavia Codepen.io:n demoja:
+Joulukortti on "puolivalmisteista" tehty kooste, jonka lähteinä on käytetty alla olevia Codepen.io:n demoja. ⚠️HUOM: sivu piilottaa hiiren (helpottaa ruutukaappauksen ottamista)!⚠️
 
 ## Vilkkuvat jouluvalot
 
