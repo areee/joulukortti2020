@@ -1,9 +1,10 @@
 // Source for the glowing text: https://codepen.io/jackrobertscott/pen/OMEpKM
+// Edited by Arttu Ylhävuori (text alignment, flex box usage and font sizes)
 
 $light: #ffffff;
 $dark: lighten(#000000, 8%);
 $glow: #0ba9ca;
-$fs: 12em;
+$fs: 3em;
 
 html {
   height: 100%;
@@ -14,15 +15,11 @@ body {
   height: 100%;
 }
 .glow {
-  //   margin-top: 100px;
-  //   text-align: center;
-
   display: flex;
   width: 50%;
   height: 100%;
   margin: auto;
   border-radius: 10px;
-  //   border: 3px dashed #1c87c9;
   align-items: center;
   justify-content: center;
   flex-direction: column;
@@ -35,13 +32,10 @@ body {
     animation: blink 1.5s infinite alternate;
   }
   .major {
-    // display: block;
-    // font-size: $fs;
-    font-size: 3em;
+    font-size: $fs;
   }
   .minor {
-    // display: block;
-    font-size: 2em;
+    font-size: $fs/3 * 2;
   }
 }
 
